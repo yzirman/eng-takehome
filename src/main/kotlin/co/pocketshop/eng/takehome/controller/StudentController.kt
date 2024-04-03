@@ -1,7 +1,7 @@
-package co.pocketshop.assesment.controller
+package co.pocketshop.eng.takehome.controller
 
-import co.pocketshop.assesment.models.response.StudentResponse
-import co.pocketshop.assesment.service.StudentService
+import co.pocketshop.eng.takehome.models.response.StudentResponse
+import co.pocketshop.eng.takehome.service.StudentService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.GetMapping

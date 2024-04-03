@@ -1,6 +1,6 @@
-package co.pocketshop.assesment.repository
+package co.pocketshop.eng.takehome.repository
 
-import co.pocketshop.assesment.models.dto.StudentDTO
+import co.pocketshop.eng.takehome.models.dto.StudentDTO
 import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.CrudRepository
 import java.util.*

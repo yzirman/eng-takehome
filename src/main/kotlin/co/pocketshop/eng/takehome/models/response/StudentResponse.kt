@@ -1,4 +1,4 @@
-package co.pocketshop.assesment.models.response
+package co.pocketshop.eng.takehome.models.response
 
 data class ExternalStudent(val id: String, val name: String, val major: String)
 

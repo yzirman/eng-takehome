@@ -1,7 +1,7 @@
-package co.pocketshop.assesment
+package co.pocketshop.eng.takehome
 
-import co.pocketshop.assesment.models.dto.StudentDTO
-import co.pocketshop.assesment.repository.StudentRepository
+import co.pocketshop.eng.takehome.models.dto.StudentDTO
+import co.pocketshop.eng.takehome.repository.StudentRepository
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

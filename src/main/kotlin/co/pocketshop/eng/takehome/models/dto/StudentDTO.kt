@@ -1,4 +1,4 @@
-package co.pocketshop.assesment.models.dto
+package co.pocketshop.eng.takehome.models.dto
 
 import jakarta.persistence.Entity
 import jakarta.persistence.Id

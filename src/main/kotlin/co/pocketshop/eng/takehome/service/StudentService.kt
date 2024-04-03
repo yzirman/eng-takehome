@@ -1,8 +1,8 @@
-package co.pocketshop.assesment.service
+package co.pocketshop.eng.takehome.service
 
-import co.pocketshop.assesment.models.response.ExternalStudent
-import co.pocketshop.assesment.models.response.StudentResponse
-import co.pocketshop.assesment.repository.StudentRepository
+import co.pocketshop.eng.takehome.models.response.ExternalStudent
+import co.pocketshop.eng.takehome.models.response.StudentResponse
+import co.pocketshop.eng.takehome.repository.StudentRepository
 import org.springframework.stereotype.Service
 
 @Service

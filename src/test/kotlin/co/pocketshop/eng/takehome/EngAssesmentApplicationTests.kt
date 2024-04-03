@@ -1,4 +1,4 @@
-package co.pocketshop.assesment
+package co.pocketshop.eng.takehome
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
