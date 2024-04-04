@@ -1,6 +1,7 @@
 package co.pocketshop.eng.takehome.service
 
 import co.pocketshop.eng.takehome.models.response.ExternalStudent
+import co.pocketshop.eng.takehome.models.response.MajorResponse
 import co.pocketshop.eng.takehome.models.response.StudentResponse
 import co.pocketshop.eng.takehome.repository.StudentRepository
 import org.springframework.stereotype.Service
@@ -16,4 +17,14 @@ class StudentService(private val studentRepository: StudentRepository) {
           return StudentResponse(it)
         }
   }
+
+    fun getAllMajors(): MajorResponse {
+        studentRepository
+            .getAll()
+            .map { it.major }
+            .distinct()
+            .let {
+                return MajorResponse(it)
+            }
+    }
 }

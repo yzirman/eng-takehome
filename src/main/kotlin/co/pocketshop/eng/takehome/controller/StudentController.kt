@@ -1,5 +1,6 @@
 package co.pocketshop.eng.takehome.controller
 
+import co.pocketshop.eng.takehome.models.response.MajorResponse
 import co.pocketshop.eng.takehome.models.response.StudentResponse
 import co.pocketshop.eng.takehome.service.StudentService
 import org.springframework.http.ResponseEntity
@@ -18,9 +19,9 @@ class StudentController(private val studentService: StudentService) {
     return ResponseEntity.ok(studentService.getAllStudents())
   }
 
-  /** This endpoint should return a list of all _distinct_ majors */
+  @CrossOrigin
   @GetMapping("/majors")
-  fun getMajors(): ResponseEntity<Void> {
-    return ResponseEntity.ok(null)
+  fun getMajors(): ResponseEntity<MajorResponse> {
+    return ResponseEntity.ok(studentService.getAllMajors())
   }
 }
